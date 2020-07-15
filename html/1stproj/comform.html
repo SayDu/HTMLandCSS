@@ -1,0 +1,53 @@
+<!-- vid 39 udemy wed dev bootcamp -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body>
+<h2>Register</h2>
+<form>
+	<label for="frst">First Name:</label>
+	<input id="frst" type="text" name="frst">
+	<label for="last">Last Name:</label>
+	<input id="last" type="text" name="last"><br>
+	<label for="male">Male:</label>
+	<input type="radio" name="gender" id="male">
+	<label for="female">Female:</label>
+	<input type="radio" name="gender" id="female">
+	<label for="others">Others:</label>
+	<input type="radio" name="gender" id="others"><br>
+	<label for="user">Email:</label>
+	<input type="Email" name="Email" id="user" required>
+	<label for="pass">Password:</label>
+	<!-- maxlength and minlength attribute used for password char limit  -->
+	<input type="Password" name="pass" id="pass" minlength="5" maxlength="8" required=""><br>
+	<label for="mnth">Birthday:</label>
+	<label for="mnth">Month:</label>
+	<select id="mnth">
+		<option>Jan</option>
+		<option>Feb</option>
+		<option>Mar</option>
+		<option>Apr</option>
+	</select>
+	<label for="day">Day:</label>
+	<select id="day">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+	</select>
+	<label for="year">Year:</label>
+	<select id="year">
+		<option>1998</option>
+		<option>1999</option>
+		<option>2000</option>
+	</select><br>
+	<label for="agreement">I agree to the terms and condition</label>
+	<input type="radio" name="agreement" id="agreement">
+	<br><button>Submit</button>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form validation</title>
+</head>
+<body>
+	
+	<!-- use of radio & checkbox type -->
+	
+	<form>
+		<p>Specify gender</p>
+		<!-- if the condition is to select just one of the options then type & name attribute must be same
+		value attribute is used to store the data as a value given in the attribute -->
+
+		<label for="male">Male:</label>
+		<input id="male" type="radio" name="g" value="MALE">
+		<label for="female">Female:</label>
+		<input id="female" type="radio" name="g" value="FEMALE">
+		<!-- dropdown menu -->
+		<p>specify color</p>
+		<select name="color">
+			<option>Red</option>
+			<option>Blue</option>
+			<option>Green</option>
+		</select>
+		<p>Give your bio</p>
+		<!-- for large are for bios or resumes use textarea tag
+		size to be determined using rows and cols attributes -->
+		<textarea rows="5" cols="20" placeholder="bio"></textarea>
+		<button>Go</button>
+
+	</form>
+
+</body>
+</html>
+<!-- always check the link of the html page after submiting in the browser -->

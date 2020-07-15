@@ -1,0 +1,37 @@
+h1{
+	color: rgba(20,80,150,0.84);
+	/*rgba coding is used a stand for alpha means the transparency of the shade*/
+	/*0<=a<=1*/
+	border-color: red;
+	/*setting border color*/
+	border-width: 2px;
+	border-style: dashed;
+}
+h2{
+	color: green;
+	border: 1px solid yellow;
+	/*shortcut for all 3 attribute for bordering*/
+}
+li{
+	color:rgb(99, 26, 88);
+	/*rgb coding is used range of value is 0-255*/
+}
+h4{
+	color: #FF0000;
+	/*in hexa-dec coding #_ _ this to for R then _ _ for G _ _ for B*/
+	/*0 stands for no shade and F stands for extreme shade*/
+	/*look result for understanding*/
+	background: rgba(0,100,200,0.5);
+}
+body{
+	background: rgba(200,200,200,0.7);
+	border: 5px dashed blue;
+
+
+/*	background: url(https://thumbs.dreamstime.com/b/wood-grain-texture-background-old-natural-wood-background-texture-had-grain-clear-surface-design-material-d-modeling-138983491.jpg);
+	/*img background*/
+	/*background-repeat: no-repeat;*/
+	/*to avoid background strecthing issues*/
+	/*background-size: cover;*/
+	/*to avoid tile and strect the image as one*/*/
+}

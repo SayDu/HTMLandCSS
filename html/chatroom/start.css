@@ -1,0 +1,52 @@
+body{
+/*	background-image: url("https://ak4.picdn.net/shutterstock/videos/19881244/thumb/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;*/
+
+
+	/*perfect background cover*/
+	background: url(https://ak4.picdn.net/shutterstock/videos/19881244/thumb/1.jpg) no-repeat center center fixed; 
+/*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+	/*background-color: #b1cee3;*/
+	/*background-color: #93b4cc;*/
+	background-color: /*#da8ede*/  /*#da32e3*/ /*#c6e82c*/ #366ab3;
+	background-blend-mode: screen;
+}
+.jum1{
+	/*transparent back*/
+	background: rgba(0,0,0,0.65);
+	text-align: center;
+	border: rgba(0,0,0,0.4) solid 2px;
+	/*margin-top: 20px;*/
+	margin: 20px 5% 20px 5% ;
+	border-radius: 20px 50px 20px 50px;
+	color: white;
+}
+.head1{
+	font-family: 'Comic Neue', cursive;
+	text-shadow: 2px 3px 2px #635d5d;
+}
+.about1{
+	font-family: 'Roboto Mono', monospace;
+}
+.btn{
+	/*padding:  10px  20px;*/
+	font-family: 'Roboto Mono', monospace;
+}
+.jum2{
+		background: rgba(0,0,0,0.4);
+	text-align: center;
+	/*border: rgba(0,0,0,0.4) solid 2px;*/
+	/*margin-top: 20px;*/
+	margin: 20px 5% 20px 5% ;
+	color: white;
+}
+.head2{
+	
+	font-family: 'Comic Neue', cursive;
+	text-shadow: 2px 3px 2px #635d5d;
+}

@@ -1,0 +1,15 @@
+p{
+	border: 2px solid blue;
+	/*border width*/
+	width: 50%;
+	/*paading*/
+	/*padding: 10px;*/
+	padding-left: 30px;
+	/*margin*/
+	/*margin-top: 50px;*/
+	/*margin: 5px 40px 100px 40px; */
+	/*margin/padding: top right bottom left */
+	/*margin: 0 auto 0 auto;*/
+	/*same as before*/
+	margin: 10px 100px;
+}

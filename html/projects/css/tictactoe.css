@@ -1,0 +1,26 @@
+h4{
+	font-family: Dancing Script;
+	text-align: center;
+	font-size: 40px;
+}
+td{
+	width: 100px;
+	height: 100px;
+}
+.vert{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+
+}
+#room{
+	border: 1px solid black;
+}
+.sideup{
+	border-bottom: 1px solid black;
+}
+.sidedown{
+	border-top: 1px solid black;
+}
+table{
+	margin: auto;
+}

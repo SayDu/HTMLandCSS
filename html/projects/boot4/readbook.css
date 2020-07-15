@@ -1,0 +1,50 @@
+body{
+	background-color: #c6f4f7;
+	font-family: 'Raleway', sans-serif;
+}
+#brandname {
+	color: #d45357;
+	font-size: 1.6rem;
+	font-weight: 50;
+}
+#mainnav .nav-link {
+	color: #d4d2d2;
+	font-size: 1.1rem;
+	font-weight: 50;
+}
+#mainnav .nav-link:hover {
+	/*background-color: #d45357: */
+	color: #0602f5;
+	font-size: 1.8rem;
+	font-weight: 50;
+}
+#mainnav #navp{
+	color: #d4d2d2;
+	font-size: 1.4rem;
+	font-weight: 50;
+}
+#mainnav #navp:hover{
+	color: #0602f5;
+	font-size: 1.4rem;
+	font-weight: 50;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 10px;
+  font-weight: 400;
+  line-height: 100px;
+}
+/*.centered:hover{
+	font-size: 3.5rem;
+	font-weight: 600;
+}*/
+.row:hover{
+	transform: scale(1.05);
+	filter: contrast(110%);
+	color: black;
+}

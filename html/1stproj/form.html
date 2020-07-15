@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form html</title>
+</head>
+<body>
+ 	<h2>Welcome</h2>
+ 	<!-- action-Where the form send datas 
+ 		method- what http method (get/post) -->
+	<form action="http://wikipedia.org" method="GET"> 
+		<!--action="/my-form-submitting-page" method="post" -->
+
+		<label>Username<input type="text" name="name" placeholder="User"></label>
+		<label>Password<input type="password" name="password" placeholder="Password"></label>
+		<!-- 
+		<input type="color" name="Preferred color" placeholder="Select color">
+		<input type="radio" name="Male" placeholder="Male">
+		<input type="radio" name="Female" placeholder="Female" -->>
+		<!-- <input type="submit" name="Log in">                 
+		this will act like the next line-->
+		<button>Log in</button>
+	</form>
+	<!-- use of for & id attributes -->
+	<form>
+		<label for="username" >Username</label>
+		<!-- required attribut is boolean attribute so nothing needed -->
+		<!--  another one is data type attribute like changing the type attribute in input tag (check username tag)-->
+		<input id="username" type="email" name="Username" placeholder="User" required>
+		<label for="password">Password</label>
+		<input id="password" type="password" name="Password" placeholder="Password">
+		<button>Log in</button>
+	</form>
+	<p>Hellooooooo</p>
+	 <!-- if form tag is used it will push anything to a new line  -->
+
+
+</body>
+</html>
+<!-- always check the link of the html page after submiting in the browser -->
